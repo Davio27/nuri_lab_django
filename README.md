@@ -1,1 +1,1 @@
-# nuri_lab_django
+# nuri_lab
