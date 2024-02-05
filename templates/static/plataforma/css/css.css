@@ -1,0 +1,70 @@
+/* Styles for lateral cards */
+.card-lateral {
+    background-color: #27DB8F;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* Apply hover effect to links in lateral cards */
+.card-lateral a:hover {
+    text-decoration: none;
+}
+
+.link-lateral:hover{
+    text-decoration: none;
+}
+
+.link-hover:hover{
+    text-decoration: none;
+}
+
+/* Styles for titles */
+.titulo {
+    color: #27DB8F;
+}
+
+/* Styles for patient cards */
+.card-paciente {
+    background-color: #EAEAEA;
+    width: 80%; /* Consider using a responsive layout here */
+    box-shadow: 3px 3px 3px gray;
+    padding: 20px;
+    color: black;
+    margin: 20px auto; /* Center the card horizontally and add spacing between them */
+}
+
+/* Apply hover effect to links within patient cards */
+.card-paciente a:hover {
+    text-decoration: none;
+}
+
+/* Styles for profile pictures */
+.foto-perfil {
+    text-align: center;
+}
+
+/* Bold font for data */
+.dados {
+    font-weight: bold;
+}
+
+/* Adjust the description class */
+.descricao {
+    margin-left: 0; /* Reset the margin */
+}
+
+/* Media query for screens smaller than 1300px */
+@media (max-width: 1300px) {
+    .descricao {
+        margin-left: 1px;
+    }
+
+    /* Adjust the width of patient cards for smaller screens */
+    .card-paciente {
+        width: 100%; /* Take full width on smaller screens */
+    }
+}
